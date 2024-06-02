@@ -1,0 +1,483 @@
+body, hr,.info h3,.info p{
+    margin: 0%;
+    padding: 0%;
+}
+.boxhelp, .box p,.kotak,.kotak2,.kotak3,.kotak4,.unduh{
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.li1 ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+.li1 ul li{
+    margin-right: 10px;
+}
+.li1 ul li:hover,.text1 p:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-right: 10px;
+}
+.icon img{
+    margin-left: 40px;
+    width: 100px;
+    height: 20px;
+}
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.text1 li img{
+    margin-left: 10px;
+    width:20px;
+    height:20px;
+}
+.text1 ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.boxhelp{
+    display: flex;
+    background-color: rgb(28, 28, 200);
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxhelp p:hover{
+    position: relative;
+    text-decoration: underline;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.promosi{
+    display: flex;
+    flex-direction:row;
+    height: 520px;
+    margin:5px;
+    margin-bottom: 50px;
+}
+.promosi img{
+    width: 60%;
+}
+.boxteks{
+    width: 40%;
+    height: 520px;
+    background-color: #3491c0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isi{
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 250;
+    display: flex;
+    flex-direction: column;
+}
+.isi p,.box2 h5{
+    margin: 0%;
+    padding: 0%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.box{
+    height: 20px;
+    background-color: rgb(28, 28, 200);
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.box2 p:hover{
+    text-decoration: underline;
+    position: relative;
+    margin-right: 5px;
+}
+.p p{
+    margin-left:5px;
+}
+.plateform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.kosong{
+    margin: 0%;
+    padding: 0%;
+    height: 90px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.pf1{
+    height: 40px;
+    margin-right:30px ;
+}
+.pf1 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+}
+.pf2{
+    height: 40px;
+    margin-right:30px ;
+}
+.pf2 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+}
+.pf3 {
+    height: 40px;
+    margin-right:30px ;
+}
+.pf3 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+}
+.tentang{
+    margin: 20px;
+}
+.kosong2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.info{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info h3 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info img{
+    height:200px ;
+}
+.kotak p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info2{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info2 h3,.info2 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info2 img{
+    height:200px ;
+}
+.kotak2 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info3{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info3 h3,.info3 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info3 img{
+    height:200px ;
+}
+.kotak3 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info4{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info4 h4,.info4 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info4 img{
+    height:200px ;
+}
+.kotak4 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.android {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 500px;
+    background-color: rgb(232, 232, 232);
+    margin-bottom: 100px;
+}
+.kosong3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+.right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 50px;
+}
+.unduh{
+    background-color: blue;
+    width: 70%;
+    padding: 10px;
+    padding-bottom: -13px;
+}
+.unduh p{
+    margin: 0%;
+    padding: 0%;
+}
+.unduh h3{
+    padding: 0%;
+    margin: 0%;
+}
+.android img{
+    width:65%;
+    height: 500px;
+}
+.tentang2{
+    margin: 20px;
+    margin-bottom: 200px;
+}
+.kosong4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.info5{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info5 h3 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info5 img{
+    height:200px ;
+}
+.kotak5 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info5{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info5 h3,.info2 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info5 img{
+    height:200px ;
+}
+.kotak5 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info6{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info6 h3,.info3 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info6 img{
+    height:200px ;
+}
+.kotak6 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info7{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info7 h4,.info4 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info7 img{
+    height:200px ;
+}
+.kotak7 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+.info8{
+    border: 3px;
+    border-color: #6b6d6eb0;
+    border-style: solid;
+    margin:10px;
+    height: 400px;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.info8 h4,.info4 p{
+    margin: 0%;
+    padding: 0%;
+}
+.info8 img{
+    height:200px ;
+}
+.kotak8 p{
+    width: 80%;
+    border-radius: 5px;
+    margin:5px;
+    background-color: blue;
+}
+
+.flotter{
+    margin-top:50px;
+    padding: 10px;
+    background-color: gray;
+}
+.flotter ul{
+    display: flex;
+    flex-direction: row;
+}
+.flotter ul li{
+    margin-right: 45px;
+}
+.flotter ul li h3{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 40px;
+}
+.flotter ul li ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+.scrollatas{
+    height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tombol a{
+    height: 35;
+    padding: 15px;
+    border: 3px;
+    border-color:black ;
+    border-radius: 5px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+}
+.cr{
+    display: flex;
+    flex-direction: row-reverse;
+}
